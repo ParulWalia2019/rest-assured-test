@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="4737" started-at="2021-01-31T16:37:21 AEDT" finished-at="2021-01-31T16:37:26 AEDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4737" started-at="2021-01-31T16:37:21 AEDT" finished-at="2021-01-31T16:37:26 AEDT">
+      <class name="com.restassured.test.WeatherTest">
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:com.restassured.test.WeatherTest@a7e666]" name="getResponseBody" duration-ms="1890" started-at="2021-01-31T16:37:21 AEDT" finished-at="2021-01-31T16:37:23 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="testCountNoOfThursAndFriInResponse()[pri:0, instance:com.restassured.test.WeatherTest@a7e666]" name="testCountNoOfThursAndFriInResponse" duration-ms="591" started-at="2021-01-31T16:37:23 AEDT" finished-at="2021-01-31T16:37:24 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountNoOfThursAndFriInResponse -->
+        <test-method status="PASS" signature="testFindSuitableDate()[pri:0, instance:com.restassured.test.WeatherTest@a7e666]" name="testFindSuitableDate" duration-ms="566" started-at="2021-01-31T16:37:24 AEDT" finished-at="2021-01-31T16:37:24 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindSuitableDate -->
+        <test-method status="PASS" signature="testSchemaValidation()[pri:0, instance:com.restassured.test.WeatherTest@a7e666]" name="testSchemaValidation" duration-ms="1063" started-at="2021-01-31T16:37:24 AEDT" finished-at="2021-01-31T16:37:25 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSchemaValidation -->
+        <test-method status="PASS" signature="testSuccessResponseCode()[pri:0, instance:com.restassured.test.WeatherTest@a7e666]" name="testSuccessResponseCode" duration-ms="587" started-at="2021-01-31T16:37:25 AEDT" finished-at="2021-01-31T16:37:26 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessResponseCode -->
+      </class> <!-- com.restassured.test.WeatherTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

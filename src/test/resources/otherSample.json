@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "leagueId": {
+          "type": "integer"
+        },
+        "homeTeam": {
+          "type": "string"
+        },
+        "visitingTeam": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "leagueId",
+        "homeTeam",
+        "visitingTeam"
+      ]
+    },
+    "odds": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "price": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "price",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "price": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "price",
+            "name"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "data",
+    "odds"
+  ]
+}
